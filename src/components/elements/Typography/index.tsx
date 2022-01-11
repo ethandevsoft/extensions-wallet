@@ -18,6 +18,8 @@ export default function Typography(props: {
       return `font-mono font-semibold ${styles.title1} ${className}`
     } else if (variant === 'other') {
       return `font-mono font-medium ${styles.other} ${className}`
+    } else if (variant === 'button') {
+      return `font-mono font-semibold ${styles.button} ${className}`
     }
   }
 

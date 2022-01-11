@@ -1,1 +1,1 @@
-export type AppTypographyVariant = 'title' | 'description' | 'title1' | 'other'
+export type AppTypographyVariant = 'title' | 'description' | 'title1' | 'other' | 'button'

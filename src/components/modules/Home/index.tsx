@@ -4,19 +4,21 @@ import Container from 'components/elements/Layouts/Container'
 import Content from 'components/elements/Layouts/Content'
 import MainContent from 'components/elements/Layouts/MainContent'
 import Experiences from 'components/modules/Home/Experiences'
+import PopularCategories from './PopularCategories'
 
 export default function Home() {
   return (
     <Container>
       <>
         <Header />
+        <SearchBar />
         <Content>
-          <>
-            <SearchBar />
-            <MainContent>
+          <MainContent>
+            <>
               <Experiences />
-            </MainContent>
-          </>
+              <PopularCategories />
+            </>
+          </MainContent>
         </Content>
       </>
     </Container>
