@@ -1,0 +1,14 @@
+.title {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.154px;
+}
+.description {
+  font-size: 12px;
+  line-height: 16px;
+}
+.title1 {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(51, 55, 59, 0.7);
+}
