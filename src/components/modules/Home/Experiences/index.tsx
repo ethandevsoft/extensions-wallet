@@ -1,6 +1,6 @@
 import Typography from 'components/elements/Typography'
 import {experiences} from './data'
-import { ExperienceType } from 'types/experience'
+import {ExperienceType} from 'types/experience'
 import Experience from './Experience'
 
 export default function Experiences() {
@@ -9,13 +9,9 @@ export default function Experiences() {
       <div className="mb-2">
         <Typography variant="title">Recent Experiences</Typography>
       </div>
-      {
-        experiences.map((experience: ExperienceType, index: number) => {
-          return (
-            <Experience experience={experience} key={index} />
-          )
-        })
-      }
+      {experiences.map((experience: ExperienceType, index: number) => {
+        return <Experience experience={experience} key={index} />
+      })}
     </div>
   )
 }

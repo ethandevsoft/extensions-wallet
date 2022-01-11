@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function IconButton(props: {
+export default function Button(props: {
   children: React.ReactElement
   onClick?: () => void
 }) {

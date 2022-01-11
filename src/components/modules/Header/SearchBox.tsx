@@ -1,5 +1,5 @@
 import DownIcon from 'components/elements/icons/Down'
-import IconButton from 'components/elements/IconButton'
+import Button from 'components/elements/Button'
 import styles from './SearchBox.module.css'
 
 export default function SearchBox() {
@@ -10,9 +10,9 @@ export default function SearchBox() {
         type="text"
         className={`w-full h-full border-none pl-[8px] pr-[15px] focus:outline-none font-mono font-semibold ${styles.search}`}
       />
-      <IconButton>
+      <Button>
         <DownIcon />
-      </IconButton>
+      </Button>
     </div>
   )
 }

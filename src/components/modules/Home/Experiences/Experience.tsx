@@ -1,6 +1,6 @@
 import {ExperienceType} from 'types/experience'
 import Typography from 'components/elements/Typography'
-import IconButton from 'components/elements/IconButton'
+import Button from 'components/elements/Button'
 import RightIcon from 'components/elements/icons/Right'
 
 export default function Experience(props: {experience: ExperienceType}) {
@@ -14,13 +14,16 @@ export default function Experience(props: {experience: ExperienceType}) {
         <div className="flex flex-col justify-center">
           <Typography variant="title1">{title}</Typography>
           <Typography variant="description">{description}</Typography>
-          <Typography variant="other" className="text-[#587BE0]">{`${users} users`}</Typography>
+          <Typography
+            variant="other"
+            className="text-[#587BE0]"
+          >{`${users} users`}</Typography>
         </div>
       </div>
       <div className="mr-[14px]">
-        <IconButton>
+        <Button>
           <RightIcon />
-        </IconButton>
+        </Button>
       </div>
     </div>
   )

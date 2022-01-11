@@ -1,6 +1,6 @@
 import SearchIcon from 'components/elements/icons/Search'
 import FilterIcon from 'components/elements/icons/Filter'
-import IconButton from 'components/elements/IconButton'
+import Button from 'components/elements/Button'
 import styles from './SearchBar.module.css'
 
 export default function SearchBar() {
@@ -15,9 +15,9 @@ export default function SearchBar() {
         />
       </div>
       <div className="mr-[18px]">
-        <IconButton>
+        <Button>
           <FilterIcon />
-        </IconButton>
+        </Button>
       </div>
     </div>
   )
